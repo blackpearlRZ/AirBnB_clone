@@ -1,0 +1,22 @@
+footer {
+	<<<<<<< HEAD
+	background-color: #FFFFFF;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #CCCCCC;
+	=======
+	background-color: #ffffff;
+	height: 60;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	>>>>>>> ffc9df854bbdb5aab0dac6fb9b9a68638eefcb7c
+}

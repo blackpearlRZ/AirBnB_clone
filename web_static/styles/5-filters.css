@@ -1,0 +1,124 @@
+<<<<<<< HEAD
+.container section.filters {
+	display: flex;
+	color: #FFFFFF;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+}
+
+.filters-left div:first-of-type {
+	border-right: 1px solid #DDDDDD;
+}
+
+button {
+	font-size: 18px;
+	background-color: #FF5A5F;
+	color: #FFFFFF;
+	height: 48px;
+	width: 40%;
+	border-radius: 4px;
+	border: 0px;
+	margin-right: 30px;
+}
+
+button:hover {
+	opacity: .9;
+}
+
+.locations , .amenities {
+	height: 100%;
+	color: #000000;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div .locations h3,
+div .amenities h3 {
+	font-weight: 600;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+div .locations h4,
+div .amenities h4 {
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.filters-left {
+	height: 100%;
+	display: flex;
+	flex: 1;
+	justify-content: left;
+}
+
+.filters-right {
+	height: 100%;
+	display: flex;
+	flex: 1;
+	justify-content: right;
+	align-items: center;
+	=======
+	.filters {
+		background-color: #ffffff;
+		height: 70px;
+		width: 100%;
+		border: 1px solid #dddddd;
+		border-radius: 4px;
+	}
+
+	.amenities,
+	.locations {
+		display: inline-block;
+		height: 100%;
+		width: 25%;
+	}
+
+
+	.filters button:hover{
+		background-color: rgba(255, 90, 95, .9);
+	}
+
+	.filters button{
+		background-color: #ff5a5f;
+		margin: 12px 30px;
+		font-size: 18px;
+		height: 48px;
+		width: 20%;
+		color: #ffffff;
+		border-radius: 4px;
+		border: none;
+		float: right;
+	}
+
+	.locations{
+		border-right: 1px solid #dddddd;
+	}
+
+
+	.filters h2,
+	.filters h3,
+	.filters h4 {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	.filters h3 {
+		padding: 15.5px 0 0 30px;
+		font-size: 1.17em;
+		font-weight: 600;
+		height: 50%;
+	}
+	.filters h4 {
+		padding: 5px 0 12px 30px;
+		font-size: 14px;
+		font-weight: 400;
+		height: 50%;
+		>>>>>>> ffc9df854bbdb5aab0dac6fb9b9a68638eefcb7c
+	}
