@@ -1,0 +1,21 @@
+footer {
+	<<<<<<< HEAD
+	background-color: #FFFFFF;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #CCCCCC;
+	=======
+	text-align: center;
+	background-color: #0f0;
+	height: 60px;
+	width: 100%;
+	bottom: 0;
+	justify-content: center;
+	position: absolute;
+	align-items: center;
+	display: flex;
+	>>>>>>> ffc9df854bbdb5aab0dac6fb9b9a68638eefcb7c
+}
